@@ -4,8 +4,8 @@
 
 🪐 兴趣驱动的独立开发者，主要写天文历算、历法、占星与传统术数相关的软件和开源项目。
 
-<sub>Independent developer building open-source software around astronomy, ephemerides, calendars, astrology and traditional Chinese metaphysics.<br>
-Most of my projects begin as an attempt to understand how existing tools work, then grow into libraries, bindings, datasets and apps across Dart, TypeScript, Python and C++.</sub>
+<p>Independent developer building open-source software around astronomy, ephemerides, calendars, astrology and traditional Chinese metaphysics.<br>
+Most of my projects begin as an attempt to understand how existing tools work, then grow into libraries, bindings, datasets and apps across Dart, TypeScript, Python and C++.</p>
 
 很多项目都起源于一个很简单的问题：现有工具不够顺手，或者我想知道它底层到底是怎么算的，于是就自己（~~AI~~）写了一套。
 

@@ -19,6 +19,25 @@
 <table>
   <tr>
     <td valign="top">
+      <h3><a href="https://github.com/RedSC1/opendestiny-web">OpenDestiny Web</a></h3>
+      <code>JavaScript / TypeScript</code> <code>React</code> <code>Web App</code> <a href="https://github.com/RedSC1/opendestiny-web/blob/main/LICENSING.md"><code>Mixed licenses</code></a>
+      <p>本地优先的在线排盘与历法工具站，支持简体中文与繁體中文。</p>
+      <p><em>A local-first web app for Chinese astrology, tarot and calendar tools.</em></p>
+      <ul>
+        <li>八字与紫微斗数排盘，支持约公元前 6000 年至公元 9999 年（天文年 −5999～9999）</li>
+        <li>78 张 Rider–Waite–Smith 塔罗牌、正逆位、多种牌阵和本地抽牌历史</li>
+        <li>万年历、农历、干支、节气、黄历与气朔推算</li>
+        <li>无需账号，命例与记录保存在浏览器本地，支持 JSON 导入与导出</li>
+        <li><strong>下一步：</strong>占星 → 六爻 → 梅花易数 → 大六壬 → 奇门遁甲<br><em>Roadmap: astrology, Liuyao, Meihua Yishu, Da Liu Ren and Qimen Dunjia.</em></li>
+        <li><a href="https://tools.redsc1.com"><strong>在线使用 / Live site</strong></a></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td valign="top">
       <h3><a href="https://github.com/RedSC1/taiyin-ephemeris">Taiyin Ephemeris</a></h3>
       <code>C++</code> <code>核心引擎</code> <code>MPL-2.0</code>
       <p>可嵌入的高性能天文历算内核。</p>

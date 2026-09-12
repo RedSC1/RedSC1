@@ -4,7 +4,8 @@
 
 🪐 兴趣驱动的独立开发者，主要写天文历算、历法、占星与传统术数相关的软件和开源项目。
 
-<sub>Independent developer building open-source software for astronomy, calendars, astrology and traditional Chinese metaphysics.</sub>
+<sub>Independent developer building open-source software around astronomy, ephemerides, calendars, astrology and traditional Chinese metaphysics.<br>
+Most of my projects begin as an attempt to understand how existing tools work, then grow into libraries, bindings, datasets and apps across Dart, TypeScript, Python and C++.</sub>
 
 很多项目都起源于一个很简单的问题：现有工具不够顺手，或者我想知道它底层到底是怎么算的，于是就自己（~~AI~~）写了一套。
 
@@ -24,12 +25,12 @@
       <p>可嵌入的高性能天文历算内核。</p>
       <p><em>An embeddable C++ astronomy engine with ephemerides, observations, events, eclipses, calendars and optional BaZi / Ziwei modules.</em></p>
       <ul>
-        <li>太阳系天体位置、观测坐标、升落与天文事件</li>
-        <li>日月食、掩星、固定星、历法与真太阳时</li>
-        <li>可选的八字、干支与紫微斗数扩展</li>
-        <li>JPL SPK / OPM2 星历，以及供语言绑定使用的 C99 API</li>
-        <li>提供 <a href="https://github.com/RedSC1/py-ephemeris">Python</a> 与 <a href="https://github.com/RedSC1/dart-ephemeris">Dart</a> 语言绑定</li>
-        <li><strong>支持年份：</strong>内置半解析模型约为 −3000～+3000 年；配套 OPM2 压缩星历可加载全量 DE441 数据，覆盖约 30,370 年</li>
+        <li>太阳系天体位置、观测坐标、升落与天文事件<br><em>Solar-system positions, observing coordinates, rise/set calculations and astronomical event searches.</em></li>
+        <li>日月食、掩星、固定星、历法与真太阳时<br><em>Solar and lunar eclipses, occultations, fixed stars, calendars and apparent solar time.</em></li>
+        <li>可选的八字、干支与紫微斗数扩展<br><em>Optional BaZi, Ganzhi and Ziwei Doushu extensions.</em></li>
+        <li>JPL SPK / OPM2 星历，以及供语言绑定使用的 C99 API<br><em>JPL SPK and OPM2 ephemerides with a versioned C99 API designed for embedding and language bindings.</em></li>
+        <li>提供 <a href="https://github.com/RedSC1/py-ephemeris">Python</a> 与 <a href="https://github.com/RedSC1/dart-ephemeris">Dart</a> 语言绑定<br><em>Official Python and Dart bindings are available.</em></li>
+        <li><strong>支持年份：</strong>内置半解析模型约为 −3000～+3000 年；配套 OPM2 压缩星历可加载全量 DE441 数据，覆盖约 30,370 年<br><em>The built-in semi-analytic fallback covers roughly −3000 to +3000; the optional full-range DE441 OPM2 dataset spans about 30,370 years.</em></li>
       </ul>
     </td>
   </tr>
@@ -43,12 +44,12 @@
       <p>用于浏览器和 Node.js 的天文、历法与传统术数工具集，无运行时依赖。</p>
       <p><em>A zero-dependency astronomy, calendar and Chinese metaphysics toolkit for browsers and Node.js.</em></p>
       <ul>
-        <li>太阳、月球和行星的位置与速度，以及恒星表、视位置和地平坐标</li>
-        <li>升落中天、照明与视直径、合冲、留、入宫、近远点、交点和大距</li>
-        <li>全球与地方日月食搜索，以及接触时刻和地方可见性</li>
-        <li>节气、月相、农历、历史历法、算术回历、干支与真太阳时</li>
-        <li>包含 BaZi、Ziwei、Huangli 和 Star Catalog 子包</li>
-        <li><strong>支持年份：</strong>天文年 −6000～10000 年</li>
+        <li>太阳、月球和行星的位置与速度，以及恒星表、视位置和地平坐标<br><em>Positions and velocities for the Sun, Moon and planets, plus star catalogs, apparent positions and horizontal coordinates.</em></li>
+        <li>升落中天、照明与视直径、合冲、留、入宫、近远点、交点和大距<br><em>Rise, set and transit times; illumination, apparent diameters, conjunctions, oppositions, stations, ingresses, apsides, nodes and elongations.</em></li>
+        <li>全球与地方日月食搜索，以及接触时刻和地方可见性<br><em>Global and local solar/lunar eclipse searches with contact times and local visibility.</em></li>
+        <li>节气、月相、农历、历史历法、算术回历、干支与真太阳时<br><em>Solar terms, lunar phases, Chinese and arithmetic Hijri calendars, historical calendar rules, Ganzhi and apparent solar time.</em></li>
+        <li>包含 BaZi、Ziwei、Huangli 和 Star Catalog 子包<br><em>Also includes BaZi, Ziwei, Huangli and Star Catalog packages.</em></li>
+        <li><strong>支持年份：</strong>天文年 −6000～10000 年<br><em>Supported astronomical years: −6000 to 10000; precision varies by body, epoch and API.</em></li>
       </ul>
     </td>
   </tr>
@@ -62,12 +63,12 @@
       <p>JS Ephemeris Lite 的纯 Dart 实现，支持 Dart VM 和 Web，无运行时依赖。</p>
       <p><em>A pure Dart astronomy and calendar library for Dart VM, Flutter and the web.</em></p>
       <ul>
-        <li>太阳、月球和行星的位置与速度，以及外部恒星表、视位置和地平坐标</li>
-        <li>升落中天、照明、合冲、留、入宫、近远点、交点和大距</li>
-        <li>全球与地方日月食搜索，以及接触时刻和地方可见性</li>
-        <li>节气、月相、农历、历史历法、算术回历、干支与真太阳时</li>
-        <li>纯 Dart 实现，支持 Dart VM、Flutter 和 Dart Web</li>
-        <li><strong>支持年份：</strong>天文年 −6000～10000 年</li>
+        <li>太阳、月球和行星的位置与速度，以及外部恒星表、视位置和地平坐标<br><em>Positions and velocities for the Sun, Moon and planets, with external star catalogs, apparent positions and horizontal coordinates.</em></li>
+        <li>升落中天、照明、合冲、留、入宫、近远点、交点和大距<br><em>Rise, set and transit times; illumination, conjunctions, oppositions, stations, ingresses, apsides, nodes and elongations.</em></li>
+        <li>全球与地方日月食搜索，以及接触时刻和地方可见性<br><em>Global and local solar/lunar eclipse searches with contact times and local visibility.</em></li>
+        <li>节气、月相、农历、历史历法、算术回历、干支与真太阳时<br><em>Solar terms, lunar phases, Chinese and arithmetic Hijri calendars, historical calendar rules, Ganzhi and apparent solar time.</em></li>
+        <li>纯 Dart 实现，支持 Dart VM、Flutter 和 Dart Web<br><em>Pure Dart with support for Dart VM, Flutter and Dart Web.</em></li>
+        <li><strong>支持年份：</strong>天文年 −6000～10000 年<br><em>Supported astronomical years: −6000 to 10000; precision varies by body, epoch and API.</em></li>
       </ul>
     </td>
   </tr>

@@ -148,8 +148,8 @@
       <p>
         <strong><a href="https://github.com/RedSC1/opendestiny-flutter">OpenDestiny Flutter</a></strong>
         <code>Flutter</code> <code>App</code> <code>MIT</code><br>
-        跨平台排盘应用，目前包含紫微斗数与八字功能；支持公元前 1000 年至公元 9999 年。<br>
-        <em>A cross-platform Flutter app for BaZi and Ziwei Doushu charts.</em>
+        跨平台排盘应用，目前包含紫微斗数与八字功能；时间与历法计算采用与寿星万年历一致的口径。<br>
+        <em>A cross-platform Flutter app for BaZi and Ziwei Doushu charts, following the time and calendar conventions used by Shouxing Almanac.</em>
       </p>
     </td>
   </tr>

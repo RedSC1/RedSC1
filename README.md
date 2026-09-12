@@ -29,7 +29,7 @@
         <li>可选的八字、干支与紫微斗数扩展<br><em>Optional BaZi, Ganzhi and Ziwei Doushu extensions.</em></li>
         <li>JPL SPK / OPM2 星历，以及供语言绑定使用的 C99 API<br><em>JPL SPK and OPM2 ephemerides with a versioned C99 API designed for embedding and language bindings.</em></li>
         <li>提供 <a href="https://github.com/RedSC1/py-ephemeris">Python</a> 与 <a href="https://github.com/RedSC1/dart-ephemeris">Dart</a> 语言绑定<br><em>Official Python and Dart bindings are available.</em></li>
-        <li><strong>支持年份：</strong>内置半解析模型约为 −3000～+3000 年；配套 OPM2 压缩星历可加载全量 DE441 数据，覆盖约 30,370 年<br><em>The built-in semi-analytic fallback covers roughly −3000 to +3000; the optional full-range DE441 OPM2 dataset spans about 30,370 years.</em></li>
+        <li><strong>支持年份：</strong>全量 DE441 OPM2 压缩星历（约公元前 13,200 年～公元 17,191 年，跨度约 30,370 年）；内置半解析模型与 Lite 版一致，覆盖天文年 −6000～10000 年<br><em>Full-range DE441 OPM2 data (approximately 13,200 BCE to 17,191 CE, spanning about 30,370 years); the built-in semi-analytic models follow the Lite implementation and cover astronomical years −6000 to 10000.</em></li>
       </ul>
     </td>
   </tr>

@@ -1,16 +1,20 @@
+<div align="center">
+
 # Hi, I'm RedSC1 👋
 
-🪐 我是一名兴趣驱动的独立开发者，主要写天文历算、历法计算、占星与传统术数相关的软件和开源项目。
+🪐 兴趣驱动的独立开发者，主要写天文历算、历法、占星与传统术数相关的软件和开源项目。
+
+<sub>Independent developer building open-source software for astronomy, calendars, astrology and traditional Chinese metaphysics.</sub>
 
 很多项目都起源于一个很简单的问题：现有工具不够顺手，或者我想知道它底层到底是怎么算的，于是就自己（~~AI~~）写了一套。
 
-💻 目前主要使用 **Dart / TypeScript / Python / C++**。从天文星历、历法核心，到八字、紫微引擎和 Flutter 应用都有涉及。
+💻 <strong>Dart · TypeScript · Python · C++</strong>
 
-🧭 这里按用途整理了目前公开的项目，也算是这些年兴趣路线的一张地图。
+<a href="https://www.redsc1.com">个人网站 / Website</a> · <a href="https://github.com/RedSC1?tab=repositories">全部仓库 / Repositories</a>
 
-[个人网站](https://www.redsc1.com) · [全部仓库](https://github.com/RedSC1?tab=repositories)
+</div>
 
-## 🔨 现在在做
+## 🔨 现在在做 / Current Projects
 
 <table>
   <tr>
@@ -18,6 +22,7 @@
       <h3><a href="https://github.com/RedSC1/taiyin-ephemeris">Taiyin Ephemeris</a></h3>
       <code>C++</code> <code>核心引擎</code> <code>MPL-2.0</code>
       <p>可嵌入的高性能天文历算内核。</p>
+      <p><em>An embeddable C++ astronomy engine with ephemerides, observations, events, eclipses, calendars and optional BaZi / Ziwei modules.</em></p>
       <ul>
         <li>太阳系天体位置、观测坐标、升落与天文事件</li>
         <li>日月食、掩星、固定星、历法与真太阳时</li>
@@ -36,6 +41,7 @@
       <h3><a href="https://github.com/RedSC1/js-ephemeris-lite">JS Ephemeris Lite</a></h3>
       <code>JavaScript / TypeScript</code> <code>工具集</code> <code>MPL-2.0</code>
       <p>用于浏览器和 Node.js 的天文、历法与传统术数工具集，无运行时依赖。</p>
+      <p><em>A zero-dependency astronomy, calendar and Chinese metaphysics toolkit for browsers and Node.js.</em></p>
       <ul>
         <li>太阳、月球和行星的位置与速度，以及恒星表、视位置和地平坐标</li>
         <li>升落中天、照明与视直径、合冲、留、入宫、近远点、交点和大距</li>
@@ -54,6 +60,7 @@
       <h3><a href="https://github.com/RedSC1/dart-ephemeris-lite">Dart Ephemeris Lite</a></h3>
       <code>Dart</code> <code>轻量库</code> <code>MPL-2.0</code>
       <p>JS Ephemeris Lite 的纯 Dart 实现，支持 Dart VM 和 Web，无运行时依赖。</p>
+      <p><em>A pure Dart astronomy and calendar library for Dart VM, Flutter and the web.</em></p>
       <ul>
         <li>太阳、月球和行星的位置与速度，以及外部恒星表、视位置和地平坐标</li>
         <li>升落中天、照明、合冲、留、入宫、近远点、交点和大距</li>
@@ -72,6 +79,7 @@
       <h3><a href="https://github.com/RedSC1/bazi_core">BaZi Core</a></h3>
       <code>Dart</code> <code>Library</code> <code>MPL-2.0</code>
       <p>基于 Ephemeris Lite 的纯 Dart 八字排盘库。</p>
+      <p><em>A pure Dart BaZi chart engine built on Ephemeris Lite.</em></p>
       <p>支持四柱、十神、藏干、长生、纳音、神煞、刑冲合害、起运、大运与出生时间反查。</p>
       <p><strong>支持年份：</strong>天文年 −6000～10000 年</p>
     </td>
@@ -84,13 +92,14 @@
       <h3><a href="https://github.com/RedSC1/ziwei_core">Ziwei Core</a></h3>
       <code>Dart</code> <code>Library</code> <code>MPL-2.0</code>
       <p>纯 Dart 的紫微斗数排盘核心。</p>
+      <p><em>A configurable Ziwei Doushu chart and timeline engine written in pure Dart.</em></p>
       <p>支持出生盘、运限与流盘、时间线、规则配置、修改盘、无生日起盘和条件反查。</p>
       <p><strong>支持年份：</strong>天文年 −6000～10000 年；无生日起盘不受此范围限制</p>
     </td>
   </tr>
 </table>
 
-## 其他项目
+## 📦 其他项目 / More Projects
 
 <table>
   <tr>
@@ -99,12 +108,14 @@
       <p>
         <strong><a href="https://github.com/RedSC1/py-ephemeris">Python Ephemeris</a></strong>
         <code>Python</code> <code>Binding</code> <code>MPL-2.0</code><br>
-        Taiyin Ephemeris 的 Python 绑定；支持年份随加载的星历数据变化。
+        Taiyin Ephemeris 的 Python 绑定；支持年份随加载的星历数据变化。<br>
+        <em>Python bindings for Taiyin Ephemeris.</em>
       </p>
       <p>
         <strong><a href="https://github.com/RedSC1/dart-ephemeris">Dart Ephemeris</a></strong>
         <code>Dart</code> <code>FFI</code> <code>MPL-2.0</code><br>
-        Taiyin Ephemeris C API 的 Dart 绑定；支持年份随加载的星历数据变化。
+        Taiyin Ephemeris C API 的 Dart 绑定；支持年份随加载的星历数据变化。<br>
+        <em>Dart FFI bindings for Taiyin Ephemeris.</em>
       </p>
     </td>
   </tr>
@@ -117,12 +128,14 @@
       <p>
         <strong><a href="https://github.com/RedSC1/chinese_lunar_almanac">Chinese Lunar Almanac</a></strong>
         <code>Dart</code> <code>Library</code> <code>MIT</code> <code>待重写</code><br>
-        纯 Dart 实现的中国传统黄历库；支持年份待重写后重新确认。
+        纯 Dart 实现的中国传统黄历库；支持年份待重写后重新确认。<br>
+        <em>Traditional Chinese almanac library for Dart. Rewrite planned.</em>
       </p>
       <p>
         <strong><a href="https://github.com/RedSC1/sxwnl_spa_dart">SXWNL SPA Dart</a></strong>
         <code>Dart</code> <code>移植项目</code> <code>MIT</code><br>
-        农历、节气、干支与真太阳时计算库；已对拍验证 −2000～5000 年。
+        农历、节气、干支与真太阳时计算库；已对拍验证 −2000～5000 年。<br>
+        <em>Dart port for Chinese calendars, solar terms, Ganzhi and true solar time.</em>
       </p>
     </td>
   </tr>
@@ -135,7 +148,8 @@
       <p>
         <strong><a href="https://github.com/RedSC1/opendestiny-flutter">OpenDestiny Flutter</a></strong>
         <code>Flutter</code> <code>App</code> <code>MIT</code><br>
-        跨平台排盘应用，目前包含紫微斗数与八字功能；支持公元前 1000 年至公元 9999 年。
+        跨平台排盘应用，目前包含紫微斗数与八字功能；支持公元前 1000 年至公元 9999 年。<br>
+        <em>A cross-platform Flutter app for BaZi and Ziwei Doushu charts.</em>
       </p>
     </td>
   </tr>
@@ -148,12 +162,14 @@
       <p>
         <strong><a href="https://github.com/RedSC1/lunaeph">LunaEph</a></strong>
         <code>Python</code> <code>Experiment</code> <code>Apache-2.0</code><br>
-        纯 Python 的轻量占星星历实验；支持 −3000～+3000 年。
+        纯 Python 的轻量占星星历实验；支持 −3000～+3000 年。<br>
+        <em>An experimental pure-Python astrology ephemeris.</em>
       </p>
       <p>
         <strong><a href="https://github.com/RedSC1/taiyin-ephemeris-semi-analytic">Taiyin Ephemeris — Semi-Analytic</a></strong>
         <code>Python</code> <code>Experiment</code> <code>Apache-2.0</code><br>
-        Taiyin Ephemeris 的半解析算法实验；支持 −3000～+3000 年。
+        Taiyin Ephemeris 的半解析算法实验；支持 −3000～+3000 年。<br>
+        <em>Experimental semi-analytic ephemeris models for Python.</em>
       </p>
     </td>
   </tr>

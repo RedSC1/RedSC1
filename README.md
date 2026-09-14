@@ -2,6 +2,10 @@
 
 # Hi, I'm RedSC1 👋
 
+🌙 **闭关中**  
+写了挺久，但反馈和合作机会都比较少，暂时没什么继续开发的动力，所以先停止新功能开发。现有项目正常保留。  
+有 Bug 请发邮件，**Issue 不一定看得到。**
+
 🪐 兴趣驱动的独立开发者，主要写天文历算、历法、占星与传统术数相关的软件和开源项目。
 
 <p>An interest-driven independent developer building software and open-source projects around astronomical computation, calendars, astrology and traditional Chinese metaphysics.</p>
